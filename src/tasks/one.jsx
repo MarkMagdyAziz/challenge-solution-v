@@ -62,7 +62,7 @@ const tableOfArrays = [];
 tableOfArrays.push(...array1, ...array2, ...array3, ...array4, ...array5);
 */
 const ChallengeOne = () => {
-  //console.table("table arrays testing", tableOfArrays);
+  console.table("table arrays testing", tableOfArrays);
   const { mode } = React.useContext(ThemeContext);
   const styles = getStyles(mode);
   return (
