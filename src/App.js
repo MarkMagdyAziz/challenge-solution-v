@@ -13,7 +13,7 @@ export default function App() {
   // pass mode value to styles, based on the mode
   const styles = getStyles(mode);
   return (
-    <div style={styles.app} className="App">
+    <>
       <div style={{ float: "right" }}>
         <ThemeSwitch />
       </div>
@@ -32,10 +32,11 @@ export default function App() {
             <Link to="/four">Challenge 4</Link>
           </li>
         </ul>
-
-        <Routes />
+        <div style={styles.app} className="App">
+          <Routes />
+        </div>
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 

@@ -61,8 +61,6 @@ const ChallengeFour = () => {
       <h2 style={styles.text} className="subtitle ">
         This page is looking a little dark. Mind turning on the lights in here?
         It seems like the toggle button doesn't work...! <br />
-        You are right it seems weird also Submit button and Save button weren't
-        worked but i had fixed the issue!
         <span role="img" aria-label="ponder">
           🤔
         </span>
