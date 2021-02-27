@@ -1,7 +1,7 @@
 # challenge-solutions-v
 =======
 # challenge-solutions
-This is react js challenge solutions of mine for an assignment 
+This is a react js challenge solution of mine for an assignment 
 ## Installation
 
 Clone the repository, change directories, and use NPM to install the dependencies, at the end use npm start command to start the project.
