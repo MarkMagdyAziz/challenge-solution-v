@@ -51,18 +51,19 @@ const array5 = [
 */
 
 // 1st Solution
-const tableOfArrays = [...array1, ...array2, ...array3, ...array4, ...array5];
+const tableOfArrays1 = [...array1, ...array2, ...array3, ...array4, ...array5];
 
 // 2nd Solution
-//const tableOfArrays = [].concat(...array1, array2, array3, array4, array5);
+const tableOfArrays2 = [].concat(array1, array2, array3, array4, array5);
 
 //3rd solution
-/*
-const tableOfArrays = [];
-tableOfArrays.push(...array1, ...array2, ...array3, ...array4, ...array5);
-*/
+const tableOfArrays3 = [];
+tableOfArrays3.push(...array1, ...array2, ...array3, ...array4, ...array5);
+
 const ChallengeOne = () => {
-  console.table("table arrays testing", tableOfArrays);
+  console.table("table tableOfArrays1 testing", tableOfArrays1);
+  console.table("table tableOfArrays2 testing", tableOfArrays2);
+  console.table("table tableOfArrays3 testing", tableOfArrays3);
   const { mode } = React.useContext(ThemeContext);
   const styles = getStyles(mode);
   return (
